@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Monmignon clothes — Drop Rentrée</title>
+  <meta name="description" content="Monmignon clothes — vestes streetwear. Photos réelles, panier, Stripe.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#"><span class="brand-mark">Monmignon</span><span class="brand-sub">clothes</span></a>
+      <nav class="nav">
+        <a href="#new">Nouveautés</a>
+        <a href="#collection">Collection</a>
+        <a href="#avis">Avis</a>
+        <a href="#faq">FAQ</a>
+        <button class="cart-btn" id="openCart" aria-label="Ouvrir le panier">
+          <span class="cart-icon">🛒</span><span class="cart-count" id="cartCount">0</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="new">
+      <div class="slider" data-autoplay="true" data-interval="4200">
+        <div class="slides">
+          <div class="slide"><picture>
+      <source type="image/webp" srcset="assets/white-camel-480.webp 480w, assets/white-camel-768.webp 768w, assets/white-camel-1080.webp 1080w" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/white-camel.jpg" alt="Veste blanche à col camel" class="prod" loading="lazy">
+    </picture></div>
+          <div class="slide"><picture>
+      <source type="image/webp" srcset="" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/hoodie-brown.jpg" alt="Veste à capuche Brown" class="prod" loading="lazy">
+    </picture></div>
+          <div class="slide"><picture>
+      <source type="image/webp" srcset="assets/khaki-480.webp 480w, assets/khaki-768.webp 768w, assets/khaki-1080.webp 1080w" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/khaki.jpg" alt="Veste kaki" class="prod" loading="lazy">
+    </picture></div>
+          <div class="slide"><picture>
+      <source type="image/webp" srcset="assets/black-480.webp 480w, assets/black-768.webp 768w, assets/black-1080.webp 1080w" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/black.jpg" alt="Veste noire" class="prod" loading="lazy">
+    </picture></div>
+          <div class="slide"><picture>
+      <source type="image/webp" srcset="assets/beige-480.webp 480w, assets/beige-768.webp 768w, assets/beige-1080.webp 1080w" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/beige.jpg" alt="Veste beige" class="prod" loading="lazy">
+    </picture></div>
+          <div class="slide"><picture>
+      <source type="image/webp" srcset="assets/khaki-arme-480.webp 480w, assets/khaki-arme-768.webp 768w, assets/khaki-arme-1080.webp 1080w" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/khaki-arme.jpg" alt="Veste kaki armé" class="prod" loading="lazy">
+    </picture></div>
+        </div>
+        <button class="ctrl prev" aria-label="Précédent">‹</button>
+        <button class="ctrl next" aria-label="Suivant">›</button>
+        <div class="dots" aria-hidden="true"></div>
+      </div>
+      <div class="hero-overlay container">
+        <p class="eyebrow">Drop rentrée</p>
+        <h1 class="display">Vestes streetwear</h1>
+        <p class="price-line">Prix unique <strong>65&nbsp;€</strong> — S / M / L / XL</p>
+        <a class="btn btn-primary" href="#collection">Voir la collection</a>
+      </div>
+    </section>
+
+    <!-- Product grid -->
+    <section id="collection" class="collection container">
+      <div class="section-head">
+        <h2 class="section-title">Collection</h2>
+        <p class="muted">Photos réelles. Stock limité.</p>
+      </div>
+      <div class="grid">
+        <article class="card" data-id="hoodie-brown" data-name="Veste à capuche Brown" data-img="assets/hoodie-brown.jpg">
+          <figure class="media" data-zoom="assets/hoodie-brown.jpg">
+            <picture>
+      <source type="image/webp" srcset="" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/hoodie-brown.jpg" alt="Veste à capuche Brown" class="prod" loading="lazy">
+    </picture>
+          </figure>
+          <div class="meta">
+            <h3>Veste à capuche Brown</h3>
+            <div class="meta-row">
+              <span class="price">65&nbsp;€</span>
+              <select class="size"><option>S</option><option selected>M</option><option>L</option><option>XL</option></select>
+              <button class="btn tiny add">Ajouter</button>
+              <button class="btn tiny primary buynow">Acheter maintenant</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="white-camel" data-name="Veste blanche à col camel" data-img="assets/white-camel.jpg">
+          <figure class="media" data-zoom="assets/white-camel.jpg">
+            <picture>
+      <source type="image/webp" srcset="assets/white-camel-480.webp 480w, assets/white-camel-768.webp 768w, assets/white-camel-1080.webp 1080w" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/white-camel.jpg" alt="Veste blanche à col camel" class="prod" loading="lazy">
+    </picture>
+          </figure>
+          <div class="meta">
+            <h3>Veste blanche à col camel</h3>
+            <div class="meta-row">
+              <span class="price">65&nbsp;€</span>
+              <select class="size"><option>S</option><option selected>M</option><option>L</option><option>XL</option></select>
+              <button class="btn tiny add">Ajouter</button>
+              <button class="btn tiny primary buynow">Acheter maintenant</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="khaki-arme" data-name="Veste kaki armé" data-img="assets/khaki-arme.jpg">
+          <figure class="media" data-zoom="assets/khaki-arme.jpg">
+            <picture>
+      <source type="image/webp" srcset="assets/khaki-arme-480.webp 480w, assets/khaki-arme-768.webp 768w, assets/khaki-arme-1080.webp 1080w" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/khaki-arme.jpg" alt="Veste kaki armé" class="prod" loading="lazy">
+    </picture>
+          </figure>
+          <div class="meta">
+            <h3>Veste kaki armé</h3>
+            <div class="meta-row">
+              <span class="price">65&nbsp;€</span>
+              <select class="size"><option>S</option><option selected>M</option><option>L</option><option>XL</option></select>
+              <button class="btn tiny add">Ajouter</button>
+              <button class="btn tiny primary buynow">Acheter maintenant</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="black" data-name="Veste noire" data-img="assets/black.jpg">
+          <figure class="media" data-zoom="assets/black.jpg">
+            <picture>
+      <source type="image/webp" srcset="assets/black-480.webp 480w, assets/black-768.webp 768w, assets/black-1080.webp 1080w" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/black.jpg" alt="Veste noire" class="prod" loading="lazy">
+    </picture>
+          </figure>
+          <div class="meta">
+            <h3>Veste noire</h3>
+            <div class="meta-row">
+              <span class="price">65&nbsp;€</span>
+              <select class="size"><option>S</option><option selected>M</option><option>L</option><option>XL</option></select>
+              <button class="btn tiny add">Ajouter</button>
+              <button class="btn tiny primary buynow">Acheter maintenant</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="beige" data-name="Veste beige" data-img="assets/beige.jpg">
+          <figure class="media" data-zoom="assets/beige.jpg">
+            <picture>
+      <source type="image/webp" srcset="assets/beige-480.webp 480w, assets/beige-768.webp 768w, assets/beige-1080.webp 1080w" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/beige.jpg" alt="Veste beige" class="prod" loading="lazy">
+    </picture>
+          </figure>
+          <div class="meta">
+            <h3>Veste beige</h3>
+            <div class="meta-row">
+              <span class="price">65&nbsp;€</span>
+              <select class="size"><option>S</option><option selected>M</option><option>L</option><option>XL</option></select>
+              <button class="btn tiny add">Ajouter</button>
+              <button class="btn tiny primary buynow">Acheter maintenant</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="khaki" data-name="Veste kaki" data-img="assets/khaki.jpg">
+          <figure class="media" data-zoom="assets/khaki.jpg">
+            <picture>
+      <source type="image/webp" srcset="assets/khaki-480.webp 480w, assets/khaki-768.webp 768w, assets/khaki-1080.webp 1080w" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw">
+      <img src="assets/khaki.jpg" alt="Veste kaki" class="prod" loading="lazy">
+    </picture>
+          </figure>
+          <div class="meta">
+            <h3>Veste kaki</h3>
+            <div class="meta-row">
+              <span class="price">65&nbsp;€</span>
+              <select class="size"><option>S</option><option selected>M</option><option>L</option><option>XL</option></select>
+              <button class="btn tiny add">Ajouter</button>
+              <button class="btn tiny primary buynow">Acheter maintenant</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="avis" class="reviews container">
+      <div class="section-head">
+        <h2 class="section-title">Avis clients</h2>
+        <p class="muted">Notes vérifiées — 5,0 ★</p>
+      </div>
+      <div class="rev-grid">
+        <article class="rev">
+          <div class="stars" aria-label="5 étoiles">★★★★★</div>
+          <p>“Qualité au top, coupe parfaite. Reçu en 3 jours, je recommande !”</p>
+          <small>— Yanis</small>
+        </article>
+        <article class="rev">
+          <div class="stars" aria-label="5 étoiles">★★★★★</div>
+          <p>“La veste noire est trop clean, passe avec tout. Rapport qualité/prix imbattable.”</p>
+          <small>— Lina</small>
+        </article>
+        <article class="rev">
+          <div class="stars" aria-label="5 étoiles">★★★★★</div>
+          <p>“Service rapide, packaging soigné, taille nickel. Je reprendrai pour la rentrée.”</p>
+          <small>— Mehdi</small>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq container">
+      <div class="section-head">
+        <h2 class="section-title">FAQ — Livraison & Retours</h2>
+        <p class="muted">Infos clés avant d’acheter</p>
+      </div>
+      <div class="accordion">
+        <details>
+          <summary>Quels sont les délais de livraison ?</summary>
+          <p>Généralement 2 à 5 jours ouvrés en France métropolitaine (indicatif). Le délai exact dépend du transporteur et du volume de commandes.</p>
+        </details>
+        <details>
+          <summary>Quels sont les frais de livraison ?</summary>
+          <p>Les frais de port sont calculés lors de la confirmation (selon destination & mode). Nous cherchons la meilleure option au meilleur prix.</p>
+        </details>
+        <details>
+          <summary>Puis-je retourner un article ?</summary>
+          <p>Oui. Conformément au droit de rétractation, vous disposez de 14 jours après réception pour nous retourner un produit non porté et dans son emballage d’origine.</p>
+        </details>
+        <details>
+          <summary>Comment faire un échange de taille ?</summary>
+          <p>Contactez-nous sous 14 jours. L’échange est possible selon disponibilités stock (frais de retour à la charge du client).</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Legal -->
+    <section id="cgv" class="legal container">
+      <h2 class="section-title">Conditions Générales de Vente (CGV)</h2>
+      <p><strong>Objet.</strong> Les présentes CGV régissent les ventes effectuées sur le site Monmignon clothes.</p>
+      <p><strong>Prix.</strong> Prix affichés en euros TTC. Les frais de livraison sont précisés lors de la confirmation.</p>
+      <p><strong>Commande.</strong> Une commande est validée après paiement accepté. Un e‑mail de confirmation est envoyé.</p>
+      <p><strong>Paiement.</strong> Cartes via Stripe, virement, cash ou crypto (le cas échéant). Les données de paiement ne transitent pas par nos serveurs.</p>
+      <p><strong>Livraison.</strong> Délais indicatifs. Le risque est transféré au client à la remise au transporteur.</p>
+      <p><strong>Droit de rétractation.</strong> 14 jours à compter de la réception (produit non porté, étiquettes intactes). Remboursement après contrôle.</p>
+      <p><strong>Garanties.</strong> Garantie légale de conformité et des vices cachés selon le droit français.</p>
+      <p><strong>Données personnelles.</strong> Voir la Politique de confidentialité.</p>
+      <p><strong>Droit applicable.</strong> Droit français. Tribunal compétent selon les règles de droit commun.</p>
+      <p class="muted small">Ce modèle est fourni à titre indicatif. Adaptez-le à votre activité.</p>
+    </section>
+
+    <section id="mentions" class="legal container">
+      <h2 class="section-title">Mentions légales</h2>
+      <p><strong>Responsable de publication :</strong> Monmignon clothes — Contact : 06 31 45 66 49</p>
+      <p><strong>Adresse :</strong> (à compléter) — SIREN : (à compléter)</p>
+      <p><strong>Hébergeur :</strong> Vercel Inc. — 440 N Barranca Ave #4133, Covina, CA 91723, USA</p>
+      <p><strong>Contact :</strong> WhatsApp / Téléphone / (e‑mail à compléter)</p>
+      <p class="muted small">Renseignez vos informations légales exactes (raison sociale, adresse, SIREN).</p>
+    </section>
+
+    <section id="confidentialite" class="legal container">
+      <h2 class="section-title">Politique de confidentialité</h2>
+      <p><strong>Données collectées.</strong> Nom, téléphone, choix produit/tailles, adresse de livraison (si nécessaire), informations de paiement traitées par Stripe.</p>
+      <p><strong>Base légale.</strong> Exécution du contrat (commande) et intérêt légitime (lutte contre la fraude).</p>
+      <p><strong>Destinataires.</strong> Équipe Monmignon clothes et prestataires (Stripe, hébergeur).</p>
+      <p><strong>Conservation.</strong> Durée nécessaire au traitement de la commande et obligations légales.</p>
+      <p><strong>Droits.</strong> Accès, rectification, effacement, opposition : contactez-nous (coordonnées ci-dessus).</p>
+      <p><strong>Sécurité.</strong> Paiements gérés par Stripe ; nous ne stockons pas vos données de carte.</p>
+      <p class="muted small">Ce texte est indicatif et doit être validé pour votre activité.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Monmignon clothes</p>
+      <nav class="foot-nav">
+        <a href="#faq">FAQ</a>
+        <a href="#cgv">CGV</a>
+        <a href="#mentions">Mentions légales</a>
+        <a href="#confidentialite">Confidentialité</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Cart Drawer -->
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="drawer-head">
+      <strong>Panier</strong>
+      <button class="close" id="closeCart" aria-label="Fermer">×</button>
+    </div>
+    <div class="drawer-body">
+      <ul class="cart-list" id="cartList"></ul>
+      <div class="cart-empty" id="cartEmpty">Votre panier est vide.</div>
+    </div>
+    <div class="drawer-foot">
+      <div class="row">
+        <span>Sous-total</span>
+        <strong id="cartTotal">0 €</strong>
+      </div>
+      <p class="muted">Prix unique: 65 € / article.</p>
+      <button class="btn btn-primary full" id="checkoutBtn">Payer avec Stripe</button>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="close" aria-label="Fermer">×</button>
+    <button class="lb-prev" aria-label="Précédent">‹</button>
+    <img class="lb-img" alt="Agrandissement produit" />
+    <button class="lb-next" aria-label="Suivant">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
